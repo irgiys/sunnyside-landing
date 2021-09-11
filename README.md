@@ -39,10 +39,6 @@ Users should be able to:
 
 This challange reminds me of forgotten syntax
 
-```html
-<div class="title"><h1>We are creatives</h1></div>
-```
-
 ```css
 .wrapper-grid {
    width: 100vw;
@@ -51,10 +47,6 @@ This challange reminds me of forgotten syntax
    place-content: center;
    place-items: center;
 }
-```
-
-```js
-btn.addEventListener("click", () => nav.classList.toggle("flex"));
 ```
 
 ### Continued development
