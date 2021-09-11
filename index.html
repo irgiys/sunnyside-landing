@@ -1,129 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <!-- displays site properly based on user's device -->
 
-      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-      <title>Frontend Mentor | Sunnyside agency landing page</title>
-      <link rel="stylesheet" href="style.css" />
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- displays site properly based on user's device -->
 
-      <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-      <style>
-         .attribution {
-            font-size: 11px;
-            text-align: center;
-         }
-         .attribution a {
-            color: hsl(228, 45%, 44%);
-         }
-      </style>
-   </head>
-   <body>
-         <!-- Jumbotron -->
-         <div class="jumbotron">
-            <img src="./images/image-header.jpg" alt=""  />
-            <!-- Navbar -->
-            <nav class="navbar">
-               <div class="logo">
-                  <h2>sunnyside</h2>
-               </div>
-               <ul class="nav">
-                  <li><a href="">About</a></li>
-                  <li><a href="">Services</a></li>
-                  <li><a href="">Projects</a></li>
-                  <li>
-                     <button><a href="">Contact</a></button>
-                  </li>
-               </ul>
-               <div class="burger-btn">
-                  <img src="./images/icon-hamburger.svg" alt="">
-               </div>
-            </nav>
-            <div class="title"><h1>We are creatives</h1></div>
+   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+   <title>Frontend Mentor | Sunnyside agency landing page</title>
+   <link rel="stylesheet" href="style.css" />
 
+   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <style>
+      .attribution {
+         font-size: 11px;
+         text-align: center;
+      }
+
+      .attribution a {
+         color: hsl(228, 45%, 44%);
+      }
+   </style>
+</head>
+
+<body>
+   <!-- Jumbotron -->
+   <div class="jumbotron">
+      <img src="./images/image-header.jpg" alt="Big jumbotron" />
+      <!-- Navbar -->
+      <nav class="navbar">
+         <div class="logo">
+            <h2>sunnyside</h2>
          </div>
+         <ul class="nav">
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li>
+               <button>Contact</button>
+            </li>
+         </ul>
+         <div class="burger-btn">
+            <img src="./images/icon-hamburger.svg" alt="Hamburger button">
+         </div>
+      </nav>
+      <div class="title">
+         <h1>We are creatives</h1>
+      </div>
 
-         <div class="wrapper-grid">
-            <div class="head-img img-1">
-               <img src="./images/image-transform.jpg" alt=""  />
+   </div>
+
+   <div class="wrapper-grid">
+      <div class="head-img img-1">
+         <img src="./images/image-transform.jpg" alt="Big egg" />
+      </div>
+      <article class="article">
+         <h2 class="head-title">Transform your brand</h2>
+         <p class="paragraph">We are a full-service creative agency specializing in helping brands grow fast. Engage
+            your clients through compelling visuals that do most of the marketing for you.</p>
+         <h4 class="btn"><a href="">Learn more</a><span></span></h4>
+      </article>
+      <div class="head-img">
+         <img src="./images/image-stand-out.jpg" alt="Glass" />
+      </div>
+      <article class="article">
+         <h2 class="head-title last">Stand out to the right audience</h2>
+         <p class="paragraph">Using a collaborative formula of designers, researchers, photographers, videographers, and
+            copywriters, we’ll build and extend your brand in digital places.</p>
+         <h4 class="btn"><a href="">Learn more</a><span class="last"></span></h4>
+      </article>
+      <div class="litle-jumbo jumbo-1">
+         <h3 class="title-service">Graphic Design</h3>
+         <p class="paragraph">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
+      <div class="litle-jumbo jumbo-2">
+         <h3 class="title-service">Photography</h3>
+         <p class="paragraph">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
+   </div>
+   <div class="testimonials">
+      <h5 class="testi-title">Client testimonials</h5>
+      <div class="testi-flex-wrapper">
+         <div class="card-wrapper">
+            <div class="img-client">
+               <img src="./images/image-emily.jpg" alt="Emily-chan" />
             </div>
-            <article class="article">
-               <h2 class="head-title">Transform your brand</h2>
-               <p class="paragraph">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-               <h4 class="btn"><a href="">Learn more</a><span></span></h4>
-            </article>
-            <div class="head-img">
-               <img src="./images/image-stand-out.jpg" alt=""  />
+            <p class="paragraph">We put our trust in Sunnyside and they delivered, making sure our needs were met and
+               deadlines were always hit.</p>
+            <p class="name">Emily R.</p>
+            <p class="profesion">Marketing Director</p>
+         </div>
+         <div class="card-wrapper">
+            <div class="img-client">
+               <img src="./images/image-thomas.jpg" alt="Thomas-kun" />
             </div>
-            <article class="article">
-               <h2 class="head-title last">Stand out to the right audience</h2>
-               <p class="paragraph">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-               <h4 class="btn"><a href="">Learn more</a><span class="last"></span></h4>
-            </article>
-            <div class="litle-jumbo jumbo-1">
-               <h3 class="title-service">Graphic Design</h3>
-               <p class="paragraph">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            <p class="paragraph">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it
+               a satisfying and enjoyable experience.</p>
+            <p class="name">Thomas S.</p>
+            <p class="profesion">Chief Operating Officer</p>
+         </div>
+         <div class="card-wrapper">
+            <div class="img-client">
+               <img src="./images/image-jennie.jpg" alt="Jennie-san" />
             </div>
-            <div class="litle-jumbo jumbo-2">
-               <h3 class="title-service">Photography</h3>
-               <p class="paragraph">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-            </div>
+            <p class="paragraph">Incredible end result! Our sales increased over 400% when we worked with Sunnyside.
+               Highly recommended!</p>
+            <p class="name">Jennie F.</p>
+            <p class="profesion">Business Owner</p>
          </div>
       </div>
-      <div class="testimonials">
-         <h5 class="testi-title">Client testimonials</h5>
-         <div class="testi-flex-wrapper">
-            <div class="card-wrapper">
-               <div class="img-client">
-                  <img src="./images/image-emily.jpg" alt="" />
-               </div>
-               <p class="paragraph">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-               <p class="name">Emily R.</p>
-               <p class="profesion">Marketing Director</p>
-            </div>
-            <div class="card-wrapper">
-               <div class="img-client">
-                  <img src="./images/image-thomas.jpg" alt=""  />
-               </div>
-               <p class="paragraph">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-               <p class="name">Thomas S.</p>
-               <p class="profesion">Chief Operating Officer</p>
-            </div>
-            <div class="card-wrapper">
-               <div class="img-client">
-                  <img src="./images/image-jennie.jpg" alt=""  />
-               </div>
-               <p class="paragraph">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-               <p class="name">Jennie F.</p>
-               <p class="profesion">Business Owner</p>
-            </div>
-         </div>
+   </div>
+   <div class="grid-img">
+      <div class="img-footer img-1"></div>
+      <div class="img-footer img-2"></div>
+      <div class="img-footer img-3"></div>
+      <div class="img-footer img-4"></div>
+   </div>
+   <footer class="footer">
+      <div class="wrapper">
+         <div class="logo">sunnyside</div>
+         <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+         </ul>
       </div>
-      <div class="grid-img">
-         <div class="img-footer img-1"></div>
-         <div class="img-footer img-2"></div>
-         <div class="img-footer img-3"></div>
-         <div class="img-footer img-4"></div>
+      <div class="social-media">
+         <div class="facebook"></div>
+         <div class="instagram"></div>
+         <div class="twitter"></div>
+         <div class="pinterest"></div>
       </div>
-      <footer class="footer">
-         <div class="wrapper">
-            <div class="logo">sunnyside</div>
-            <ul>
-               <li><a href="">About</a></li>
-               <li><a href="">Services</a></li>
-               <li><a href="">Projects</a></li>
-            </ul>
-         </div>
-         <div class="social-media">
-            <div class="facebook"></div>
-            <div class="instagram"></div>
-            <div class="twitter"></div>
-            <div class="pinterest"></div>
-         </div>
-      </footer>
-      <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.github.com/iynsys" target="_blank">Irgiys</a>.</div>
-      <script src="script.js"></script>
-   </body>
+   </footer>
+   <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+         Mentor</a>. Coded by <a href="https://www.github.com/iynsys" target="_blank">Irgiys</a>.</div>
+   <script src="script.js"></script>
+</body>
+
 </html>
