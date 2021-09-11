@@ -210,7 +210,17 @@ select {
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(460px, 2fr));
    place-content: center;
+   grid-template-areas:
+      "article img";
    place-items: center;
+}
+
+.wrapper-grid .article.article-1 {
+   grid-area: article;
+}
+
+.wrapper-grid .head-img.img-1 {
+   grid-area: img;
 }
 
 .wrapper-grid .article>* {
@@ -285,7 +295,7 @@ select {
 .wrapper-grid .litle-jumbo.jumbo-1 {
    background: url(./images/image-graphic-design.jpg);
    color: var(--dark-cyan);
-   background-repeat: no-repeat;
+   /* background-repeat: no-repeat; */
    background-position: center;
    width: 100%;
 }
@@ -295,7 +305,7 @@ select {
    background: url(./images/image-photography.jpg);
    color: var(--dark-blue);
    background-position: center;
-   background-repeat: no-repeat;
+   /* background-repeat: no-repeat; */
 }
 
 .wrapper-grid .litle-jumbo .title-service {
@@ -386,12 +396,12 @@ select {
 
 .grid-img .img-footer.img-1 {
    background: url(./images/image-gallery-milkbottles.jpg) no-repeat center / cover;
-   object-fit: cover;
+
 }
 
 .grid-img .img-footer.img-2 {
    background: url(./images/image-gallery-orange.jpg) no-repeat center / cover;
-   object-fit: cover;
+
 }
 
 .grid-img .img-footer.img-3 {
@@ -508,6 +518,12 @@ select {
    }
 }
 
+@media(max-width:1190px) {
+   .grid-img {
+      grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+   }
+}
+
 @media (max-width: 920px) {
    /* jumbotron */
 
@@ -516,6 +532,12 @@ select {
    }
 
    /* service */
+   .wrapper-grid {
+      grid-template-areas:
+         "img"
+         "article";
+   }
+
    .wrapper-grid img {
       width: 100vw;
    }
