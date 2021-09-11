@@ -489,11 +489,10 @@ select {
    }
 }
 @media (max-width: 514px) {
-   /* navbar */
-   .jumbotron {
-      display: flex;
-      justify-content: center;
+   body {
+      overflow-x: hidden;
    }
+   /* navbar */
    .jumbotron .navbar {
       width: 80vw;
    }
