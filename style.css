@@ -415,16 +415,16 @@ select {
    transition: all 0.4s;
 }
 .footer .social-media .facebook {
-   background: url(/images/icon-facebook.svg) center/cover;
+   background: url(./images/icon-facebook.svg) center/cover;
 }
 .footer .social-media .instagram {
-   background: url(/images/icon-instagram.svg) center/cover;
+   background: url(./images/icon-instagram.svg) center/cover;
 }
 .footer .social-media .twitter {
-   background: url(/images/icon-twitter.svg) center/cover;
+   background: url(./images/icon-twitter.svg) center/cover;
 }
 .footer .social-media .pinterest {
-   background: url(/images/icon-pinterest.svg) center/cover;
+   background: url(./images/icon-pinterest.svg) center/cover;
 }
 
 .footer .social-media > *:hover {
@@ -456,7 +456,15 @@ select {
       font-size: 2em;
    }
    /* service */
-
+   .wrapper-grid img {
+      width: 100vw;
+   }
+   .wrapper-grid .litle-jumbo.jumbo-1 {
+      width: 100vw;
+   }
+   .wrapper-grid .litle-jumbo.jumbo-2 {
+      width: 100vw;
+   }
    .wrapper-grid .article > * {
       margin-bottom: 50px;
    }
@@ -481,7 +489,7 @@ select {
    /* testimonials */
    .testimonials .testi-flex-wrapper {
       flex-direction: column;
-      gap: 120px;
+      gap: 100px;
    }
    /* footer */
    .footer .social-media {
@@ -489,10 +497,6 @@ select {
    }
 }
 @media (max-width: 514px) {
-   body {
-      overflow-x: hidden;
-   }
-   /* navbar */
    .jumbotron .navbar {
       width: 80vw;
    }
