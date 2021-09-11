@@ -497,6 +497,11 @@ select {
    }
 }
 @media (max-width: 514px) {
+   html,
+   body {
+      max-width: 100%;
+      overflow-x: hidden;
+   }
    .jumbotron .navbar {
       width: 80vw;
    }
