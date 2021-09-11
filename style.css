@@ -346,19 +346,19 @@ select {
    height: 420px;
 }
 .grid-img .img-footer.img-1 {
-   background: url(/images/image-gallery-milkbottles.jpg) no-repeat center / cover;
+   background: url(./images/image-gallery-milkbottles.jpg) no-repeat center / cover;
    object-fit: cover;
 }
 .grid-img .img-footer.img-2 {
-   background: url(/images/image-gallery-orange.jpg) no-repeat center / cover;
+   background: url(./images/image-gallery-orange.jpg) no-repeat center / cover;
    object-fit: cover;
 }
 .grid-img .img-footer.img-3 {
-   background: url(/images/image-gallery-sugarcubes.jpg) no-repeat center / cover;
+   background: url(./images/image-gallery-sugarcubes.jpg) no-repeat center / cover;
    object-fit: cover;
 }
 .grid-img .img-footer.img-4 {
-   background: url(/images/image-gallery-cone.jpg) no-repeat center / cover;
+   background: url(./images/image-gallery-cone.jpg) no-repeat center / cover;
    object-fit: cover;
 }
 /* footer */
