@@ -136,7 +136,11 @@
    </footer>
    <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
          Mentor</a>. Coded by <a href="https://www.github.com/iynsys" target="_blank">Irgiys</a>.</div>
-   <script src="script.js"></script>
+   <script>
+      const btn = document.querySelector(".burger-btn");
+      const nav = document.querySelector(".navbar .nav");
+      btn.addEventListener("click", () => nav.classList.toggle("flex"));
+   </script>
 </body>
 
 </html>
